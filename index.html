@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Waqar Chaudhry's personal website. NYC-based learner sharing journey through programming, mathematics, and books. Follow my 2026 goal to conquer procrastination.">
+    <meta name="author" content="Waqar Chaudhry">
+    <meta name="keywords" content="Waqar Chaudhry, programming, CS50, mathematics, learning, blog, NYC">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://hellowaqar.com/">
+    <meta property="og:title" content="Waqar Chaudhry - Home on the Internet">
+    <meta property="og:description" content="NYC-based learner sharing journey through programming, mathematics, and books. Follow my 2026 goal to conquer procrastination.">
+    <meta property="og:image" content="https://hellowaqar.com/logo.png">
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:url" content="https://hellowaqar.com/">
+    <meta name="twitter:title" content="Waqar Chaudhry - Home on the Internet">
+    
+    <!-- Beehiiv Newsletter -->
+    <script async src="https://subscribe-forms.beehiiv.com/embed.js"></script>
+    <meta name="twitter:description" content="NYC-based learner sharing journey through programming, mathematics, and books.">
+    <meta name="twitter:image" content="https://hellowaqar.com/logo.png">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="logo.png">
+    <link rel="canonical" href="https://hellowaqar.com/">
+    
+    <title>Waqar Chaudhry</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600&family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Waqar Chaudhry",
+      "url": "https://hellowaqar.com",
+      "description": "26-year-old from NYC passionate about learning programming, mathematics, and continuous self-improvement",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "New York City",
+        "addressRegion": "NY",
+        "addressCountry": "US"
+      },
+      "knowsAbout": ["Programming", "Computer Science", "Mathematics", "Physics", "Philosophy", "Rock Climbing"]
+    }
+    </script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container" id="app">
+        <!-- Content will be dynamically loaded here -->
+    </div>
+
+    <script>
+        const logo = `<a href="#home" style="text-decoration: none; display: inline-block;"><img src="websitebetterlogo2.png" alt="Waqar Chaudhry Logo" class="logo" style="cursor: pointer; object-fit: contain; display: block;"></a>`;
+
+        const pages = {
+            home: `
+                ${logo}
+                <nav>
+                    <a href="#home" class="active">home</a>
+                    <a href="#now">now</a>
+                    <a href="#courses">courses</a>
+                    <a href="#blog">blog</a>
+                </nav>
+                <h1>Hello <span style="color: #ff6b6b;">[stranger]</span> welcome to Waqar's home on the internet</h1>
+                <div class="meta">
+                    <span>26 y/o</span> | <span>Grew up in NYC</span> | <span>Currently living in NYC</span>
+                </div>
+                <div class="content">
+                    <p>Hello! This website is my "home base" on the internet. Many things capture my interest, and this site will feature some of them. I post about things I'm currently working on or interested in, such as projects I'm currently working on, books I'm currently reading, or things I'm learning.</p>
+                    
+                    <p><strong>2026 Goals?</strong> The answer is simple: <a href="#blog" style="color: var(--accent); text-decoration: none; border-bottom: 1px solid var(--accent);"><span class="highlight">Conquer Procrastination</span></a>. This website is my way of saying: I refuse to waste it.</p>
+                    
+                    <p>Curious about what I'm working on right now? <a href="#now" class="inline-link-animated">Check out my now page</a></p>
+                    
+                    <p>There are so many things a person can learn, from academic topics to skills. I want to learn as much as possible from skills like rock climbing and learning how to fly a plane (not yet) to learning subjects like mathematics, programming, physics, and philosophy deeply.</p>
+                    
+                    <p>I started a blog, you may enjoy reading one the articles I've written.</p>
+                    
+                    <a href="#blog" class="blog-link">read the blog</a>
+                    
+                    <p style="margin-top: 20px; font-size: 15px; line-height: 1.6;">Sign up to get very rare emails about things I'm working on, things I find interesting, or when I write. Drop your email below.</p>
+                    
+                    <div style="margin-top: 20px;">
+                        <iframe src="https://subscribe-forms.beehiiv.com/e8560296-779f-494e-b12c-307c904c7254" class="beehiiv-embed" data-test-id="beehiiv-embed" frameborder="0" scrolling="no" style="width: 100%; height: 46px; margin: 0; border: none; background-color: transparent; max-width: 400px;"></iframe>
+                    </div>
+                    <div style="margin-top: 60px; padding-top: 40px; border-top: 1px solid var(--border);">
+                        <p style="margin-bottom: 8px;">
+                            <span style="display: inline-block; width: 90px;">Reach out:</span>
+                            [<a href="mailto:waqarch1124@gmail.com" class="bracket-link">waqarch1124@gmail.com</a>] or @waqarisawesome on Discord
+                        </p>
+                        
+                        <p style="margin-bottom: 0;">
+                            <span style="display: inline-block; width: 90px;">Find me:</span>
+                            [<a href="https://github.com/hellowaqar24" target="_blank" class="bracket-link">GitHub</a>]
+                            [<a href="https://x.com/waqarisawesome" target="_blank" class="bracket-link">X</a>]
+                            [<a href="https://reddit.com/user/No_Report4868" target="_blank" class="bracket-link">Reddit</a>]
+                        </p>
+                        
+                        <p style="margin-top: 20px; font-size: 14px; color: var(--text-dim);">
+                            P.S: If you wanna contact me I generally respond to most messages! 😊
+                        </p>
+                    </div>
+                    
+                </div>
+            `,
+            blog: `
+                ${logo}
+                <nav>
+                    <a href="#home">home</a>
+                    <a href="#now">now</a>
+                    <a href="#courses">courses</a>
+                    <a href="#blog" class="active">blog</a>
+                </nav>
+                <h1>Blog</h1>
+                <div class="content">
+                    <div class="blog-post" style="margin-bottom: 50px; margin-top: 30px;">
+                        <h2 style="font-size: 28px; margin-bottom: 6px;"><a href="#blog/conquer-procrastination">Conquer Procrastination</a></h2>
+                        <div class="post-date" style="font-size: 12px;">January 2026</div>
+                    </div>
+                </div>
+            `,
+            'blog/conquer-procrastination': `
+                ${logo}
+                <nav>
+                    <a href="#home">home</a>
+                    <a href="#now">now</a>
+                    <a href="#courses">courses</a>
+                    <a href="#blog" class="active">blog</a>
+                </nav>
+                <a href="#blog" class="back-link">back to blog</a>
+                <div class="blog-post">
+                    <h2>Conquer Procrastination</h2>
+                    <div class="post-date">January 2026</div>
+                    <div class="post-content">
+                        <p>Why did I create this website? The answer is simple: to conquer procrastination. But why now? As I'm writing this is the beginning of a new year (2026), as millions set goals for the new year so I decided to join in. The goal is simple: conquer procrastinating. There's so many things I want to learn and experience. From learning how to code, to learning how to rock climb, traveling the world and everything in between.</p>
+                        
+                        <p>I once came across a saying that resonated with me: "If I could have any superpower, it would be the ability to make things easier to learn the longer I procrastinate on them." Procrastination is an almost universal challenge, a defining aspect of the human condition.</p>
+                        
+                        <p>This website is where I will document my victory against procrastination. This is a journey for me, I'm not expecting it to be easy. Whether it's a straight line to success or a maze with lessons in disguise, both outcomes are welcomed.</p>
+                        
+                        <p>I believe curiosity is essential for everything. Having the ability to be curious is important. The ability to be amazed by everything and wanting to know everything about everything. This might seem random, but nearly all of the things I want to do require learning new skills. Don't give up.</p>
+                        
+                        <p><strong>BTW</strong> How can you be bored? There are so many things to see, explore, discover, and experience—enough to fill multiple lifetimes—and we only have one.</p>
+                    </div>
+                </div>
+            `,
+            now: `
+                ${logo}
+                <nav>
+                    <a href="#home">home</a>
+                    <a href="#now" class="active">now</a>
+                    <a href="#courses">courses</a>
+                    <a href="#blog">blog</a>
+                </nav>
+                <h1>What I'm doing now</h1>
+                <div class="meta">Last updated: January 2026</div>
+                <div class="content">
+                    <p>This is a <a href="https://nownownow.com/about" target="_blank" style="color: var(--accent); text-decoration: underline;">now page</a>, inspired by Derek Sivers. It's a snapshot of what I'm focused on at this point in my life.</p>
+                    
+                    <p><strong>Current Focus:</strong> My main goal for 2026 is to <a href="#blog" style="color: var(--accent); text-decoration: none; border-bottom: 1px solid var(--accent);"><span class="highlight">conquer procrastination</span></a>.</p>
+                    
+                    <p><strong>Currently Learning:</strong> Working on CS50's Introduction to Computer Science and working through the book Python Crash Course: A Hands-on, Project-based Introduction to Programming. Also relearning algebra through calculus in order to be able to self-study and teach myself higher mathematics.</p>
+                    
+                    <p><strong>Reading:</strong> Code: The Hidden Language of Computer Hardware and Software by Charles Petzold, Frankenstein by Mary Shelley, and Project Hail Mary by Andy Weir.</p>
+                    
+                    <p style="margin-top: 40px; color: var(--text-dim); font-size: 14px;">This page is a living document. I'll update it regularly to reflect my current priorities and focus areas. If you're curious about what I was doing in the past, check out the <a href="#blog" style="color: var(--accent);">blog</a>.</p>
+                </div>
+            `,
+            courses: `
+                ${logo}
+                <nav>
+                    <a href="#home">home</a>
+                    <a href="#now">now</a>
+                    <a href="#courses" class="active">courses</a>
+                    <a href="#blog">blog</a>
+                </nav>
+                <h1>Courses</h1>
+                <div class="content">
+                    <div class="blog-post" style="margin-bottom: 50px; margin-top: 30px;">
+                        <h2 style="font-size: 28px; margin-bottom: 6px;"><a href="#courses/cs50-week0">CS50x - Harvard CS50 2026</a></h2>
+                        <div class="post-date" style="font-size: 12px;">January 2026 | In Progress</div>
+                    </div>
+                </div>
+            `,
+            'courses/cs50-week0': `
+                ${logo}
+                <nav>
+                    <a href="#home">home</a>
+                    <a href="#now">now</a>
+                    <a href="#courses" class="active">courses</a>
+                    <a href="#blog">blog</a>
+                </nav>
+                <a href="#courses" class="back-link">back to courses</a>
+                <div class="blog-post">
+                    <h2>CS50x - Harvard CS50 2026</h2>
+                    <div class="post-date">January 2026 | In Progress</div>
+                    <div class="post-content">
+                        <h3 style="font-family: 'JetBrains Mono', monospace; font-size: 18px; font-weight: 500; margin: 30px 0 15px 0;">Harvard CS50 Week 0.</h3>
+                        
+                        <p>I just finished Week 0 of Harvard CS50 2026. This week was an introduction to computer science and computational thinking. Some of the topics that were covered included how numbers, text, images, music, and video are understood and represented by computers. We also learned about programming concepts such as functions, conditionals, loops, and variables. The beginning of the video lecture also talked about AI and how it is changing how programming is done. The takeaway was that AI can help, but it is important to know the fundamentals.</p>
+                        
+                        <p>The problem set for this week was to create a Scratch project (I have linked mine). This was not that hard, but still took me a few hours to finish. I feel like it was a good introduction to programming. As of now, I am not sure how similar this will be to actual programming. My biggest advice is that if the code (blocks) are not acting in the manner you want, don't think you can't do it and give up. Take a break, try moving things around, and start with small things such as adding the background and controls before adding too much. For me, it was the small things that took the longest and were the most tedious.</p>
+                        
+                        <p><a href="https://scratch.mit.edu/projects/1271395647/" target="_blank" style="color: var(--accent); text-decoration: none; border-bottom: 1px solid var(--accent);">View my Scratch project →</a></p>
+                    </div>
+                </div>
+            `
+        };
+
+        function router() {
+            const hash = window.location.hash.slice(1) || 'home';
+            const app = document.getElementById('app');
+            
+            // Define page titles
+            const pageTitles = {
+                'home': 'Waqar Chaudhry - Home',
+                'blog': 'Blog - Waqar Chaudhry',
+                'blog/conquer-procrastination': 'Conquer Procrastination - Waqar Chaudhry',
+                'now': 'Now - Waqar Chaudhry',
+                'courses': 'Courses - Waqar Chaudhry',
+                'courses/cs50-week0': 'CS50 Week 0 - Waqar Chaudhry'
+            };
+            
+            // Update page title
+            document.title = pageTitles[hash] || 'Waqar Chaudhry';
+            
+            // Try to get the exact page first
+            if (pages[hash]) {
+                app.innerHTML = pages[hash];
+            } else {
+                // If not found, try just the first part
+                const page = hash.split('/')[0];
+                if (pages[page]) {
+                    app.innerHTML = pages[page];
+                    // Update title for partial matches
+                    document.title = pageTitles[page] || 'Waqar Chaudhry';
+                } else {
+                    app.innerHTML = pages.home;
+                    document.title = pageTitles['home'];
+                }
+            }
+            
+            // Update active states
+            setTimeout(() => {
+                document.querySelectorAll('nav a').forEach(link => {
+                    const href = link.getAttribute('href').slice(1);
+                    const currentPage = hash.split('/')[0];
+                    const linkPage = href.split('/')[0];
+                    if (linkPage === currentPage) {
+                        link.classList.add('active');
+                    } else {
+                        link.classList.remove('active');
+                    }
+                });
+            }, 0);
+        }
+
+        window.addEventListener('hashchange', router);
+        window.addEventListener('load', router);
+        
+        // Handle all clicks on links
+        document.addEventListener('click', (e) => {
+            const target = e.target.closest('a');
+            if (target && target.getAttribute('href')?.startsWith('#')) {
+                e.preventDefault();
+                const hash = target.getAttribute('href');
+                window.location.hash = hash;
+                router();
+            }
+        });
+
+    </script>
+</body>
+</html>
